@@ -103,6 +103,11 @@ nav a {
     max-width: 500px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 /* This is the about section */
 .about {
@@ -125,4 +130,13 @@ nav a {
     font-size: 18px;
     font-weight: 400;
 
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
